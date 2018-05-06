@@ -3,7 +3,7 @@
 > List of crypto currencies with metadata
 
 [![Build Status](https://travis-ci.org/DeanVanNiekerk/coindata.svg?branch=master)](https://travis-ci.org/DeanVanNiekerk/coindata)
-[![npm](https://img.shields.io/npm/v/coinlist.svg)](https://www.npmjs.com/package/coindata)
+[![npm](https://img.shields.io/npm/v/coindata.svg)](https://www.npmjs.com/package/coindata)
 
 
 ## Install
