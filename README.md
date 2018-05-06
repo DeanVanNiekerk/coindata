@@ -21,10 +21,10 @@ const coindata = require('coindata');
 let coins = coindata.getAll();
 
 // Get a single coin
-let coin = coindata.getGet('btc');
+let coin = coindata.getCoin('btc');
 
 // Get a specifc attriubte
-let name = coins.get('btc', 'name');
+let name = coins.getCoin('btc', 'name');
 ```
 
 ## Sample Coin Format
