@@ -27,7 +27,7 @@ let coin = coindata.getGet('btc');
 let name = coins.get('btc', 'name');
 ```
 
-## Json Format
+## Sample Coin Format
 
 ```json
 {
@@ -56,6 +56,15 @@ let name = coins.get('btc', 'name');
         ]
     }
 ```
+
+## List of all possible coin links
+- twitter
+- reddit
+- website
+- sourceCode
+- telegram
+- announcement
+- explorer
 
 ## License
 
