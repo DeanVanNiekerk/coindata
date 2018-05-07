@@ -12,6 +12,18 @@
     "type": "git",
     "url": "https://github.com/DeanVanNiekerk/coindata.git"
   },
+  "keywords": [
+    "cryptocurrency",
+    "cryptocoins",
+    "list",
+    "metadata",
+    "data",
+    "coins",
+    "links",
+    "urls",
+    "crypto",
+    "logo"
+  ],
   "author": "Dean van Niekerk",
   "license": "MIT",
   "bugs": {
