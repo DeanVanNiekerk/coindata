@@ -1,9 +1,10 @@
 {
   "name": "coindata",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Cryptocurrency coin data",
   "main": "dist/index.js",
   "scripts": {
+    "bump": "bump",
     "test": "jasmine-node test --color --verbose",
     "test-dev": "jasmine-node test --autotest --color --verbose --watch"
   },
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/DeanVanNiekerk/coindata#readme",
   "devDependencies": {
+    "bump": "^0.2.5",
     "jasmine-node": "^1.14.5"
-  }
+  },
+  "dependencies": {}
 }
