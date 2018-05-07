@@ -1,10 +1,11 @@
 # coindata
 
-> List of crypto currencies with metadata
+> Complete list of crypto currencies with metadata
 
 [![Build Status](https://travis-ci.org/DeanVanNiekerk/coindata.svg?branch=master)](https://travis-ci.org/DeanVanNiekerk/coindata)
 [![npm](https://img.shields.io/npm/v/coindata.svg)](https://www.npmjs.com/package/coindata)
 
+#### Last Update: 06-05-2018
 
 ## Install
 
@@ -23,7 +24,7 @@ let coins = coindata.getAll();
 // Get a single coin
 let coin = coindata.getCoin('btc');
 
-// Get a specifc attriubte
+// Get a specifc coin atttribute
 let name = coins.getCoin('btc', 'name');
 ```
 
