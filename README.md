@@ -7,6 +7,7 @@
 [![npm](https://img.shields.io/npm/v/coindata.svg)](https://www.npmjs.com/package/coindata)
 
 Last Update: 2018-05-07
+Total Coin Count: 1658
 
 ## Install
 
@@ -67,6 +68,11 @@ let name = coins.getCoin('btc', 'name');
 - telegram
 - announcement
 - explorer
+
+
+## Contributing
+Pull requests are welcome to improve the code but please don't add currencies to coins.json directly. 
+The JSON is automatically generated on a weekly basis.
 
 ## License
 
