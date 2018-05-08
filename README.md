@@ -7,7 +7,7 @@
 [![npm](https://img.shields.io/npm/v/coindata.svg)](https://www.npmjs.com/package/coindata)
 
 Last Update: 2018-05-08  
-Total Coin Count: 1658
+Total Coin Count: 1657
 
 ## Install
 
