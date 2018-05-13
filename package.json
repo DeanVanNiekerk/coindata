@@ -1,6 +1,6 @@
 {
   "name": "coindata",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Cryptocurrency coin data",
   "main": "dist/index.js",
   "scripts": {
@@ -31,10 +31,11 @@
     "url": "https://github.com/DeanVanNiekerk/coindata/issues"
   },
   "homepage": "https://github.com/DeanVanNiekerk/coindata#readme",
-  "devDependencies": {
-    "bump": "^0.2.5",
-    "jasmine-node": "^2.0.0",
+  "dependencies": {
     "node-emoji": "^1.8.1"
   },
-  "dependencies": {}
+  "devDependencies": {
+    "bump": "^0.2.5",
+    "jasmine-node": "^2.0.0"
+  }
 }
