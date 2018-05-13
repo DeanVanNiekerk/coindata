@@ -5,8 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "bump": "bump",
-    "test": "jasmine-node test --color --verbose",
-    "test-dev": "jasmine-node test --autotest --color --verbose --watch"
+    "test": "jasmine-node test --verbose",
+    "test-dev": "jasmine-node test --autotest --verbose --watch",
+    "postinstall": "node postinstall"
   },
   "repository": {
     "type": "git",
@@ -32,7 +33,8 @@
   "homepage": "https://github.com/DeanVanNiekerk/coindata#readme",
   "devDependencies": {
     "bump": "^0.2.5",
-    "jasmine-node": "^1.14.5"
+    "jasmine-node": "^2.0.0",
+    "node-emoji": "^1.8.1"
   },
   "dependencies": {}
 }
