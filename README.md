@@ -6,8 +6,8 @@
 [![Build Status](https://travis-ci.org/DeanVanNiekerk/coindata.svg?branch=master)](https://travis-ci.org/DeanVanNiekerk/coindata)
 [![npm](https://img.shields.io/npm/v/coindata.svg)](https://www.npmjs.com/package/coindata)
 
-Last Update: 2018-05-21  
-Total Coin Count: 1693
+Last Update: 2018-05-31  
+Total Coin Count: 1729
 
 ## Install
 
