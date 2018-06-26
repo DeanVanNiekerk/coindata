@@ -1,6 +1,6 @@
 {
   "name": "coindata",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Cryptocurrency coin data",
   "main": "dist/index.js",
   "scripts": {
