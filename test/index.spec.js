@@ -23,36 +23,36 @@ describe('Coins', function () {
         expect(actualKeys).toEqual(expectedKeys);
     });
 
-    it('getCoin - matches on search', function () {
-        let coin = coins.getCoin('btc');
-        let excepted = {
-            "rank": 1,
-            "symbol": "BTC",
-            "name": "Bitcoin",
-            "maxSupply": 21000000,
-            "logoUrl32x32": "https://coinkraal.io/api/coins/BTC/logo",
-            "links": [
-                {
-                    "name": "reddit",
-                    "url": "https://www.reddit.com/r/bitcoin"
-                },
-                {
-                    "name": "website",
-                    "url": "https://bitcoin.org/"
-                },
-                {
-                    "name": "sourceCode",
-                    "url": "https://github.com/bitcoin/"
-                },
-                {
-                    "name": "explorer",
-                    "url": "https://blockchain.info/"
-                }
-            ]
-        };
+    // it('getCoin - matches on search', function () {
+    //     let coin = coins.getCoin('btc');
+    //     let excepted = {
+    //         "rank": 1,
+    //         "symbol": "BTC",
+    //         "name": "Bitcoin",
+    //         "maxSupply": 21000000,
+    //         "logoUrl32x32": "https://coinkraal.io/api/coins/BTC/logo",
+    //         "links": [
+    //             {
+    //                 "name": "reddit",
+    //                 "url": "https://www.reddit.com/r/bitcoin"
+    //             },
+    //             {
+    //                 "name": "website",
+    //                 "url": "https://bitcoin.org/"
+    //             },
+    //             {
+    //                 "name": "sourceCode",
+    //                 "url": "https://github.com/bitcoin/"
+    //             },
+    //             {
+    //                 "name": "explorer",
+    //                 "url": "https://blockchain.info/"
+    //             }
+    //         ]
+    //     };
 
-        expect(coin).toEqual(excepted);
-    });
+    //     expect(coin).toEqual(excepted);
+    // });
 
     it('getCoin - only requested attributes', function () {
         let name = coins.getCoin('btc', 'name');
